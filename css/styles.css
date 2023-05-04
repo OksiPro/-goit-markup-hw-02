@@ -12,7 +12,7 @@ body {
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
 }
-/* navigation */
+/* header */
 .list {
     list-style: none;
 }
@@ -30,6 +30,13 @@ body {
 }
 .studio {
     color: var(--title-text-color);
+}
+.link.menu {
+    color: var(--title-text-color);
+}
+.link.menu:hover ,
+.link.menu:focus {
+    color: var(--secondary-ocean-color);
 }
 .site-nav .link {
     color: var(--title-text-color);
@@ -145,6 +152,7 @@ text-align: center;
 }
 /* portfolio */
 .button {
+    font-family: "Roboto", sans-serif;
     color: var(--accent-color);
     background-color: var(--primary-cloud-color);
     font-weight: 500;
